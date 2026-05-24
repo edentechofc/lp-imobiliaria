@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Tiago Lima - Especialista Imobiliário",
+  "description": "Lading page e portfólio institucional de alta costura para Tiago Lima, Especialista Imobiliário. Inclui catálogo de imóveis selecionados, simulação interativa de financiamentos e formulários de contato integrados.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

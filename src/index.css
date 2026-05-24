@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --color-primary-50: #FAF8F5;
+  --color-primary-100: #F3EBE1;
+  --color-primary-200: #E6D6C4;
+  --color-primary-300: #D4BCA1;
+  --color-primary-400: #C4A484; /* Essential sand-gold editorial signature */
+  --color-primary-500: #B38E6B;
+  --color-primary-600: #9C7451;
+  --color-primary-700: #815C40;
+  --color-primary-800: #644632;
+  --color-primary-900: #302117;
+  --color-primary-950: #1C120C;
+}
+
+/* Custom subtle styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply text-slate-900 antialiased bg-stone-50;
+  font-family: var(--font-sans);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-serif-italic {
+  font-family: var(--font-display);
+  font-style: italic;
+}
+
+/* Page Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #000;
+}
+::-webkit-scrollbar-thumb {
+  background: #C4A484;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B38E6B;
+}
